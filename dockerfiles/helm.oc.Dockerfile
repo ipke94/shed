@@ -3,7 +3,7 @@
 # FROM <registry_url>/ca-certs:latest as ca-certs
 FROM debian:bullseye-slim
 
-# Uncomment to place custom CA certs. Change source path if needed.
+# Uncomment to place custom CA certs. Extention should be .crt. Change source path if needed.
 # COPY --from=ca-certs certs/ /usr/local/share/ca-certificates/
 
 # Install dependent packages and update CA certs
